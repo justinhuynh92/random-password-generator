@@ -23,7 +23,7 @@ def generate_password():
     print(password)
 
 #ask user
-option = input("Do you want to generate a password? (Yes/No)")
+option = input("Do you want to generate a password? (Yes/No): ")
 #if yes, ask for password length
 if option == "Yes":
     generate_password()
